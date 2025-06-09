@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EG-LINK | Главная</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">EG-LINK</h1>
+      <nav class="nav" id="nav-menu">
+        <ul>
+          <li><a href="#about">О нас</a></li>
+          <li><a href="#services">Услуги</a></li>
+          <li><a href="#contact">Контакты</a></li>
+        </ul>
+        <button class="nav-toggle" id="nav-toggle">&#9776;</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section">
+      <div class="container">
+        <h2>О компании</h2>
+        <p>Мы создаём цифровые решения для малого бизнеса в Казахстане, включая веб-сайты, внутренние системы и поддержку.</p>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <h2>Наши услуги</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>Разработка сайтов</h3>
+            <p>Создание адаптивных, современных веб-сайтов с учётом UX/UI-дизайна.</p>
+          </div>
+          <div class="card">
+            <h3>Автоматизация</h3>
+            <p>Внедрение внутренних IT-решений для бизнес-процессов.</p>
+          </div>
+          <div class="card">
+            <h3>Поддержка</h3>
+            <p>Техническое сопровождение, обновления и аналитика.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Связаться с нами</h2>
+        <form id="contact-form" novalidate>
+          <input type="text" id="name" placeholder="Ваше имя" required>
+          <input type="email" id="email" placeholder="Email" required>
+          <textarea id="message" placeholder="Сообщение" required></textarea>
+          <button type="submit">Отправить</button>
+          <p class="form-response" id="form-response"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 EG-LINK LLP. Все права защищены.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
